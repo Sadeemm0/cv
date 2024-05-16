@@ -85,21 +85,35 @@
     .col-md-6 {
       padding-right: 5%; 
     }
+    
+    summary {
+      color: #10054b; /* لون النص لعنصر summary */
+      padding: 10x;
+      border-radius: 5px;
+    }
+
+    details {
+      background-color: #edf5fa; /* لون الخلفية لعنصر details */
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
   </style>
 </head>
 <body>
 
 <div class="container-fluid p-5 bg-light text-white text-center">
-  <h1>Sadeem Albukhaytan </h1>
   <p></p>
+  <h1>Sadeem Albukhaytan </h1>
   <div class="row" >
+    <p></p>
     <div class="col-md-6">
+      <p></p>
       <div class="panel">
         <h2>Personal Information</h2>
         <p>Birthday: 11 March  </p>
+        <p>Saudi Arabia, Riyadh</p>
         <p>Email: sad98eem@gmail.com</p> 
         <p>Phone Number: +966 53 308 9930</p>
-        <p>Location: Saudi Arabia, Riyadh</p>
       </div>
 
       <div class="panel">
@@ -128,15 +142,20 @@
                   <h3 class="section-title">Projects</h3>
                   <div class="title-wrapper clearfix">
                     <div class="title-description">
-                      <p>Tire pressure measurement | 2024</p> 
-                      <p>This project endeavors to bolster driving safety by introducing a streamlined approach to ensuring optimal tire pressure. By mitigating the risk of traffic accidents, optimizing fuel consumption, and prolonging tire longevity, it aims to foster a safer road environment for all motorists</p>
+                      <details>
+                        <summary><p>Tire pressure measurement | 2024</p> </summary>
+                        <p>This project endeavors to bolster driving safety by introducing a streamlined approach to ensuring optimal tire pressure. By mitigating the risk of traffic accidents, optimizing fuel consumption, and prolonging tire longevity, it aims to foster a safer road environment for all motorists</p>
+                      </details>
+                      <details>
+                        <summary><p>Sky Hotel System | 2023</p></summary>
+                        <p>A hotel system designed to streamline the operations of a hotel, resort, or other lodging establishment. It helps hotel staff manage tasks such as reservations, guest check-ins, and check-outs, room assignments, billing, inventory management, and reporting. By automating these processes and providing real-time visibility into hotel operations, a hotel system can improve efficiency, reduce errors, and enhance the guest experience. Additionally, some hotel systems may also provide features such as online bookings, guest feedback management, and marketing tools to help hotels attract and retain customers.</p>
+                      </details>
                       
-                      <p>Sky Hotel System | 2023</p>
-                      <p>A hotel system designed to streamline the operations of a hotel, resort, or other lodging establishment. It helps hotel staff manage tasks such as reservations, guest check-ins, and check-outs, room assignments, billing, inventory management, and reporting. By automating these processes and providing real-time visibility into hotel operations, a hotel system can improve efficiency, reduce errors, and enhance the guest experience. Additionally, some hotel systems may also provide features such as online bookings, guest feedback management, and marketing tools to help hotels attract and retain customers.</p>
+                      <details>
+                        <summary><p>Academic training database | 2023</p></summary>
+                        <p>The project aims to develop a comprehensive database tailored for a training institute offering courses in various disciplines such as medicine, computer science, English, and business administration. The database encompasses a series of tables meticulously designed to store vital information, including course details, trainer profiles, and trainee records. This initiative facilitates efficient management of course offerings, trainer assignments, and trainee enrollment, ensuring seamless operations and optimal learning experiences.</p>
+                      </details>
 
-
-                      <p>Academic training database | 2023</p>
-                      <p>The project aims to develop a comprehensive database tailored for a training institute offering courses in various disciplines such as medicine, computer science, English, and business administration. The database encompasses a series of tables meticulously designed to store vital information, including course details, trainer profiles, and trainee records. This initiative facilitates efficient management of course offerings, trainer assignments, and trainee enrollment, ensuring seamless operations and optimal learning experiences.</p>
                     </div>
                   </div>
                 
@@ -155,9 +174,9 @@
                       <div class="skill-bar">
                         <div class="skill-level" style="width: 85%;"></div>
                       </div>
-                      <p> Java 70%</p>
+                      <p> Java 60%</p>
                       <div class="skill-bar">
-                        <div class="skill-level" style="width: 70%;"></div>
+                        <div class="skill-level" style="width: 60%;"></div>
                       </div>
                       <p> MySQL Database 80%</p>
                       <div class="skill-bar">
@@ -172,9 +191,13 @@
                     <div class="title-description">
                       <p>PCAP: Programming Essentials in Python | Cisco Networking Academy</p>
                       <pre><img src="Certification1.png"width="423" height="300">  
-                      
+                    </div>
+                  </div>
+                  <p></p>
+                  <div class="title-description clearfix">
+                    <div class="title-description">
                       <p>Introduction to IoT | Cisco Networking Academy</p> 
-                      <pre><img src="Certification2.png"width="425" height="300">  
+                      <pre><img src="Certification2.png"width="423" height="300">  
                     </div>
                   </div>
             </div>
